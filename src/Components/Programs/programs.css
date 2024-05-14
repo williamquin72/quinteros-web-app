@@ -1,0 +1,16 @@
+.ProgramsContSub{
+    margin: 80px auto;
+    width: 95%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.ProgramsContSub img{
+    width: 95%;
+    border-radius: 20px;
+    display: block;
+}
+.ProgramsContSub{ 
+    flex-basis: 30%;
+}
