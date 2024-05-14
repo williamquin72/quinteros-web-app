@@ -1,0 +1,18 @@
+.Hero-Cont{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('../../assets/QUINTEROS-full.png');
+    background: linear-gradient(rgb(216, 53, 53));
+    background-size: cover;
+    background-position: center;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Hero-Text{
+    text-align: center;
+    max-width: 800px;
+
+}

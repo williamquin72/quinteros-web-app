@@ -4,14 +4,14 @@ import logo from '../../assets/QUINTEROS2.png'
 
 const Navbar = () => {
    return (
-   <nav className="ContainerNav">
+   <nav className="NavbarCont">
 <img src={logo} alt=""  className="logo" />
 <ul>
     <li>Inicio</li>
     <li>Nosotros</li>
     <li>Acerca de</li>
     <li>Testimonios</li>
-    <li>Contactanos</li>
+    <li><button className='btn'>Contactanos</button></li>
 </ul>
 
 
