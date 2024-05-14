@@ -5,9 +5,9 @@ const Hero = () => {
     return (
         <div className="Hero-Cont">
             <div className="Hero-Text">
-            <h1>aqui va un tiutlo 1</h1>
-            <p>aqui va un parrafo</p>
-            <button className="btn">este es un boton <img src={Flecha_derecha} alt="" /></button>
+            <h1></h1>
+            <p>"En Quinter-os, nos especializamos en servicios técnicos integrales para empresas y particulares, ofreciendo soluciones tanto en hardware como en software. Nuestra experiencia nos permite garantizar la eficiencia y fiabilidad en cada proyecto que emprendemos."</p>
+            <button className="btn">Empecemos <img src={Flecha_derecha} alt="" /></button>
             </div>
 
 

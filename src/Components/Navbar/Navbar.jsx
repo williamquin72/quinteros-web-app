@@ -10,7 +10,7 @@ const Navbar = () => {
     <li>Inicio</li>
     <li>Nosotros</li>
     <li>Acerca de</li>
-    <li>Testimonios</li>
+    <li><button className="btn">Testimonios</button></li>
     <li><button className='btn'>Contactanos</button></li>
 </ul>
 
