@@ -7,9 +7,9 @@ const Navbar = () => {
    <nav className="NavbarCont">
 <img src={logo} alt=""  className="logo" />
 <ul>
-    <li>Inicio</li>
-    <li>Nosotros</li>
-    <li>Acerca de</li>
+    <li><button className="btn">Inicio</button></li>
+    <li><button className="btn">Nosotros</button></li>
+    <li><button className='btn'>Acerca de</button></li>
     <li><button className="btn">Testimonios</button></li>
     <li><button className='btn'>Contactanos</button></li>
 </ul>
