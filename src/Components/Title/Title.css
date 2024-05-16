@@ -1,0 +1,11 @@
+.TitleCont {
+    text-align: Center;
+    color: black;
+    text-transform: uppercase;
+    margin: 70px 0 30px;
+}
+.TitleCont h2 { 
+    font-size: 32px;
+    color: #000f38;
+    margin-top: 5px;
+}
