@@ -40,6 +40,7 @@
 .caption p{
     color: white;
     font-weight: bold;
+    text-transform: uppercase;
 }
 .ProgramsContSub:hover .caption{
 opacity: 100;

@@ -14,21 +14,21 @@ const Programs = () => {
                 <img src={SWSU} alt="" />
                 <div className="caption">
                     <img src={iconSWSU} alt="" />
-                    <p>Programa uno</p>
+                    <p>Software</p>
                 </div>
             </div>
             <div className="ProgramsContSub">
                 <img src={HWSU} alt="" />
                 <div className="caption">
                     <img src={iconHWSU} alt="" />
-                    <p>Programa dos</p>
+                    <p>Hardware</p>
                 </div>
             </div>
             <div className="ProgramsContSub">
                 <img src={SU} alt="" />
                 <div className="caption">
                     <img src={iconSU} alt="" />
-                    <p>Programa tres</p>
+                    <p>Soporte general</p>
                 </div>
             </div>
         </div>
