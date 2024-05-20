@@ -2,6 +2,16 @@
     background-color: rgb(180, 105, 6);
 
 }
+.About{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.About-Left01{
+    padding-right: 200px;
+    justify-content: center;
+    align-items: center;
+}
 /*ESTILOS PARA CELULARES PROGRAMS.CSS*/
 @media only screen and (max-width:600px) {
     .About {
@@ -11,8 +21,10 @@
         justify-content: center;
         align-items: center;     
     }
-    .About-Left img {
+    .About-Left01 {
         justify-content: center;
         align-items: center;
+        padding-left: 200px;
     }
+
     }
