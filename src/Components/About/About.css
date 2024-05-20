@@ -3,9 +3,9 @@
 
 }
 .About{
-    display: flex;
-  justify-content: center;
-  align-items: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
 }
 .About-Left01{
     padding-right: 200px;
@@ -22,9 +22,9 @@
         align-items: center;     
     }
     .About-Left01 {
+        width: 100%;
         justify-content: center;
         align-items: center;
-        padding-left: 200px;
     }
 
     }
