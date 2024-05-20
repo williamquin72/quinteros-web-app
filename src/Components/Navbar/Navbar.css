@@ -20,26 +20,43 @@ nav ul li {
    margin: 5px 20px;
    font-size: 16px;
 }
+.menu-icon{
+    display: none;
+}
 @media only screen and (max-width:600px) {
-    .NavbarContMain{
-        width: 100%;
-        display: flex;
-        
+    nav{ 
+        padding: 15px 0;
     }
-    .NavbarCont{
-        display: flex;
-        flex-direction:column;
-        align-items: initial;    }
-    .NavbarContList ul{
-        display: flex;
-        flex-direction:column;
-        align-items: initial;
-        padding-left: -10vh;
+    nav ul{
+        position: fixed;
+        top: 0;
+        right: -2px;
+        background: none;
+        bottom: 0;
+        z-index: -1;
+        width: 200px;
+        padding-top: 70px;
+        transition: 0.5s;
     }
-    .NavbarContList {
+    nav ul li{
+        display: block;
+        margin: 5px 4px;
+        font-size: xx-large;
+        background: none;
+    }
+   .menu-icon{
+    display: block;
+    width: 40px;
+    cursor: pointer;
+   }
+
+   .hide-mobile-menu{
+    right: -200px;
+    background-color: #000;
+   }
+
 
     }
     
 
 
-}

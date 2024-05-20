@@ -1,6 +1,6 @@
 .Hero-Cont{
     width: 100%;
-    min-height: 100vh;
+    min-height: 70vh;
     background-image: url('../../assets/Background.jpg');
     background: linear-gradient(rgb(216, 53, 53));
     background-size: cover;
@@ -40,7 +40,8 @@
 .Hero-Cont{
     width: 100%;
     justify-content: center;
-    padding-top:320px ;
+    padding-top:1px ;
+    min-height: 65vh;
 }
 
 
