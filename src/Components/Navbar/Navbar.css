@@ -21,3 +21,26 @@ nav ul li {
    font-size: 16px;
 
 }
+@media only screen and (max-width:600px) {
+    .NavbarContMain{
+        width: 100%;
+        display: flex;
+        
+    }
+    .NavbarCont{
+        display: flex;
+        flex-direction:column;
+        align-items: initial;    }
+    .NavbarContList ul{
+        display: flex;
+        flex-direction:column;
+        align-items: initial;
+        padding-left: -10vh;
+    }
+    .NavbarContList {
+
+    }
+    
+
+
+}

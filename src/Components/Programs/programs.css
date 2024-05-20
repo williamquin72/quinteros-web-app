@@ -43,6 +43,7 @@
     color: white;
     font-weight: bold;
     text-transform: uppercase;
+    background-color: transparent;
 }
 .ProgramsContSub:hover .caption{
 opacity: 100;
