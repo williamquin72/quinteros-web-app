@@ -58,6 +58,10 @@ padding-top: 0;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
+    }
+    .ProgramsContSub {
+        width: 100%;
     }
     
 
